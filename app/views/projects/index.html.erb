@@ -1,0 +1,8 @@
+<section class="projects">
+  <div class="container">
+    <h2 class="h2" id="projects">My Projects</h2>
+    <% @projects.each do |project| %>
+      <%= render 'project_card', project: project %>
+    <% end %>
+  </div>
+</section>
